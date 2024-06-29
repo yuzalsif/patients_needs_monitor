@@ -12,8 +12,20 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Color(0xFFE5E5E5),
-      body: Column(
-
+      body: Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Patients Needs Monitor',
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
       )
     );
   }
