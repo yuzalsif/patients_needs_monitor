@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060574998210",
+    "project_id": "inpatients-care-app",
+    "storage_bucket": "inpatients-care-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060574998210:android:8861db21a313771026d55b",
+        "android_client_info": {
+          "package_name": "patient.patient.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdVvrhQGrbVpO7-EIS_8J2XsZkkheeUMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
