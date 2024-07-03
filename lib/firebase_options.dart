@@ -54,9 +54,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDdVvrhQGrbVpO7-EIS_8J2XsZkkheeUMg',
-    appId: '1:1060574998210:android:8861db21a313771026d55b',
+    appId: '1:1060574998210:android:7411e361cd08dbf626d55b',
     messagingSenderId: '1060574998210',
     projectId: 'inpatients-care-app',
+    databaseURL: 'https://inpatients-care-app-default-rtdb.firebaseio.com',
     storageBucket: 'inpatients-care-app.appspot.com',
   );
+
 }
